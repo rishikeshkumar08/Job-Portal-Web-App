@@ -46,5 +46,6 @@ public class PostController {
     public Post addPost(@RequestBody Post post){
         return repo.save(post);
     }
+
 }
 
